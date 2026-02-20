@@ -202,6 +202,9 @@ open class Rebahin : MainAPI() {
             url: String,
             subCallback: (SubtitleFile) -> Unit,
             sourceCallback: (ExtractorLink) -> Unit
+        document.select("script").forEach {
+    logError("SCRIPT = " + it.data())
+}
     ) {
         val document =
                 app.get(
