@@ -1,0 +1,25 @@
+[
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=rebahinxxi1.cfd&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/lispo098/IndoStream",
+        "fileSize": 23990,
+        "status": 1,
+        "language": "id",
+        "authors": [
+            "Hexated",
+            "TeKuma25"
+        ],
+        "tvTypes": [
+            "AsianDrama",
+            "Anime",
+            "TvSeries",
+            "Movie"
+        ],
+        "version": 11,
+        "internalName": "Rebahin",
+        "description": "Includes: Cgvindo, Kitanonton",
+        "url": "https://raw.githubusercontent.com/lispo098/IndoStream/builds/Rebahin.cs3",
+        "name": "Rebahin"
+    }
+]
