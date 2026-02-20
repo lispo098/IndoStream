@@ -1,0 +1,8 @@
+{
+  "name": "IndoStream Rebahin",
+  "description": "CloudStream Rebahin Repo by lispo098",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/lispo098/IndoStream/builds/plugins.json"
+  ]
+}
