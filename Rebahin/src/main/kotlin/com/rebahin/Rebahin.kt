@@ -216,7 +216,7 @@ open class Rebahin : MainAPI() {
                         )
                         .document
 
-        document.select("script").find { it.data().contains("config =") }?.data()?.let { script ->
+        document.select("script").find { it.data().contains("window.juicyData") }?.data()?.let { script ->
             Regex("\"file\":\\s?\"(.+.m3u8)\"").find(script)?.groupValues?.getOrNull(1)?.let { link
                 ->
                 M3u8Helper.generateM3u8(
